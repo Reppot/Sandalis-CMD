@@ -1,14 +1,30 @@
-# Сначала блокируем абсолютно все файлы и папки в директории
-*
-
-# Разрешаем Git видеть только ваши строго выбранные файлы и папки
-!gui_app.py
-!gui_app.spec
-!item_codes.py
-!README.md
-
-# Разрешаем добавлять папки ресурсов и сборки целиком со всем содержимым
-!scr/
-!scr/**
-!dist/
-!dist/**
+cd D:\Games\foxhole-stockpiles-main
+git rm -r ChatExportforDEV
+git rm -r docs
+git rm -r foxhole_stockpiles
+git rm -r fs_tools
+git rm -r stubs
+git rm -r tests
+git rm .dockerignore
+git rm .fs_config.example
+git rm .gitattributes
+git rm .pre-commit-config.yaml
+git rm CHANGELOG.md
+git rm CONTRIBUTING.md
+git rm Coord.txt
+git rm codecov.yml
+git rm commit_message.txt
+git rm docker-build.sh
+git rm fs.exe
+git rm generate_mapping.py
+git rm item_codes.py.bak
+git rm item_codes.rar
+git rm list_wiki_icons.py
+git rm listofallfiles.txt
+git rm match_wiki_icons.py
+git rm pyproject.toml
+git rm relay.py
+git rm requirements.txt
+git rm wiki_icon_fixes.py
+git rm wiki_icons_list.txt
+git rm README.txt
